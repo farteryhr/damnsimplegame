@@ -504,6 +504,8 @@ class Player {
       this.dead = true
     }
     this.actPiece = newap
+    this.fallC = 0
+    this.lockC = 0
   }
 
   updateSpeed(){
